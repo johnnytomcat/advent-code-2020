@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 
-a = File.read("numbers.txt").split.map(&:to_i)
+a = File.read(__dir__ + "/numbers.txt").split.map(&:to_i)
 
 matching_sum = 2020
 
